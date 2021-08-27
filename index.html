@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Event</title>
+    <link rel="stylesheet" type="text/css" href="app.css">
+</head>
+<body>
+  
+    
+    <div class="container1">
+        
+        <h2 style="color: rgba(233, 12, 148, 0.527);">BHARATH UNIVERSITY SPORTS EVENT</h2>
+        <h4 style="text-align: center; color:aqua"> Date : </h4>
+        <h2 style="color: rgba(247, 68, 23, 0.932);">July 15th-17th</h2>
+        <h4 style="text-align: center; color:aqua"> Venue : </h4>
+        <h2 style="color: rgba(247, 68, 23, 0.932);">Near Bharath University Saliyaru Chennai</h2>
+        <h4 style="text-align: center; color:aqua"> Cheif Guest :</h4>
+        <h2 style="color: rgba(247, 68, 23, 0.932);"> Mr.V.Kanagasabai (Bharath University Vice Chancellor)</h2>
+    </div><br><br>
+    <div>
+        <h2>
+            <marquee style="color: rgba(127, 26, 194, 0.699);">
+           --Only Losers Are Making Excuses Winners Are Making History--
+            </marquee>
+        </h2>
+      </div> 
+      <div>
+          <h2 style="text-align: center; color:palevioletred">Honors</h2>
+          <h3 style="text-align: center; color:rgb(22, 141, 196)">Certificates For Winners And Participants </h3>
+      </div>
+   
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="img/1.jpg" style="width:100%">
+          <div class="text">Caption Text</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="img/2.jpg" style="width:100%">
+          <div class="text">Caption Two</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="img/3.jpg" style="width:100%">
+          <div class="text">Caption Three</div>
+        </div>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+        </div>
+        <h2>Previous Events Photos</h2>
+        </div>
+        
+        <script>
+        var slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 4000); // Change image every 4seconds
+        }
+        </script>
+   
+   <footer>
+    <div class="container">
+        <div class="footer-cols">
+        <ul>
+            <li>Indoor Sports</li>
+            <li>
+                <a href="#">Carrom</a>
+            </li>
+            <li>
+                <a href="#">Chess</a>
+            </li>
+            <li>
+                <a href="#">Drawing</a>
+            </li>
+            <li>
+                <a href="#">Ludo</a>
+            </li>
+        </ul>
+        <ul>
+            <li>Outdoor Sports</li>
+            <li>
+                <a href="#">cricket</a>
+            </li>
+            <li>
+                <a href="#">FootBall</a>
+            </li>
+            <li>
+                <a href="#">BasketBall</a>
+            </li>
+            <li>
+                <a href="#">BaseBall</a>
+            </li>
+            <li>
+                <a href="#">Hockey</a>
+            </li>
+        </ul>
+         <ul>
+                <li>Facilities</li>
+            <li>
+                <a href="#">Free Food For Players</a>
+            </li>
+            <li>
+                <a href="#">Free Rooms</a>
+            </li>
+            <li>
+                <a href="#">Sports Hall For Practice</a>
+            </li>
+        </ul>
+        <ul>
+            <li>About </li>
+        <li>
+            <a href="#">Contact Us</a>
+        </li>
+        <li>
+            <a href="#">Social Meadia</a>
+        </li>
+        <li>
+            <a href="#">About Event</a>
+        </li>
+    </ul>
+    </div>
+</div>
+<div class="footer-bottom">
+    copyright &copy;2021Saikiran
+</div>
+</footer>
+</body>
+</html>
